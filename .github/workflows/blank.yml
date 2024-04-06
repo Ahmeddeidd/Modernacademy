@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نتائج الطلاب - مودرن أكاديمي</title>
+<style>
+  body { font-family: 'Arial', sans-serif; background-color: #f7f7f7; }
+  .container { width: 80%; margin: auto; }
+  .student-profile { background-color: #fff; padding: 20px; margin-top: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  .student-profile h1 { color: #5e5e5e; }
+  .grades-table { width: 100%; border-collapse: collapse; }
+  .grades-table th, .grades-table td { text-align: left; padding: 8px; }
+  .grades-table th { background-color: #4CAF50; color: white; }
+  .grades-table tr:nth-child(even) { background-color: #f2f2f2; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="student-profile">
+    <h1>نتائج الطالب: أحمد عيد محمد</h1>
+    <table class="grades-table">
+      <tr>
+        <th>المادة</th>
+        <th>الدرجة</th>
+        <th>التقدير</th>
+        <th>الجي بي اي</th>
+      </tr>
+      <!-- يجب استبدال البيانات التالية ببيانات حقيقية من قاعدة البيانات -->
+      <tr>
+        <td>الرياضيات</td>
+        <td>85</td>
+        <td>ممتاز</td>
+        <td>4.0</td>
+      </tr>
+      <!-- يتم إضافة المزيد من الصفوف هنا -->
+    </table>
+  </div>
+</div>
+</body>
+</html>
